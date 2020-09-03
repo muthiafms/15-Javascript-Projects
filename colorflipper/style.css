@@ -1,0 +1,30 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	background-color: green;
+}
+.container {
+	width: 50%;
+	position: relative;	
+	top: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;	
+}
+
+.colortext {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.clickbutton {
+	padding: 10px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	border-radius: 10px;
+	font-size: 15px;
+	font-weight: 800;
+}
