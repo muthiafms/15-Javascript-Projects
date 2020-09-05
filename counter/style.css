@@ -1,29 +1,33 @@
 body {
 	width: 100vw;
 	height: 100vh;
-	background-color: blue;
+	background-color: rgb(157, 129, 137);
+	font-family: calibri;
 }
+
 .container {
 	width: 50%;
-	position: relative;	
+	position: relative;
 	top: 50%;
 	margin-right: auto;
 	margin-left: auto;
-	text-align: center;	
+	text-align: center;
 }
 
-.colortext {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+p {
+	font-size: 50px;
+	color: #D8E2DC;
+}
+
+h1 {
+	color: #3D405B;
 }
 
 .clickbutton {
 	padding: 10px;
 	border-style: solid;
-	border-width: 3px;
-	border-color: black;
+	border-width: 5px;
+	border-color: #6D597A;
 	border-radius: 10px;
 	font-size: 15px;
 	font-weight: 800;
